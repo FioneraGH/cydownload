@@ -1,1 +1,9 @@
-cydownload.pro.user
+.DS_Store
+
+.qmake.stash
+Makefile
+
+*.o
+moc_*
+ui_*
+#cydownload.app/
