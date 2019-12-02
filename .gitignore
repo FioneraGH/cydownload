@@ -6,4 +6,4 @@ Makefile
 *.o
 moc_*
 ui_*
-#cydownload.app/
+cydownload.app/

@@ -102,8 +102,8 @@ QNetworkRequest Downloader::getRequest(QUrl url)
 {
     QNetworkRequest req(url);
     req.setRawHeader("X-Machine", "iPhone10,1");
-    req.setRawHeader("X-Unique-ID", "f7b48b9f9d533cf12aa8d7e21bbe87ab2a84983b");
     req.setRawHeader("X-Firmware", "13.2");
+    req.setRawHeader("X-Unique-ID", "f7b48b9f9d533cf12aa8d7e21bbe87ab2a84983b");
     req.setRawHeader("User-Agent", "Telesphoreo APT-HTTP/1.0.592");
     //req.setSslConfiguration(QSslConfiguration::defaultConfiguration());
     return req;
